@@ -1,4 +1,5 @@
 // import USERID from './email-key.js';
+// import emailjs from './node_modules/emailjs-com/dist/email.min.js';
 const btn = document.querySelector('.enviarEmail');
 
 emailjs.init(USERID); // Your user ID esconder na aplicação
