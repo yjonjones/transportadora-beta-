@@ -16,19 +16,23 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
-    <link 
-    rel="stylesheet" 
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
-    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
-    crossorigin="anonymous" 
-    referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+    rel="stylesheet" href="./style/global.css"/>
     <title>Document</title>
   </head>
-  <body class="container-fluid">
+  <body class="">
+    <div class="container-fluid m-0 p-0">
     <header>
       <nav class="navbar navbar-expand-lg navbar-light">
         <!--barra de navegação-->
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Trasvila Transporte</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -74,53 +78,42 @@
               <a class="nav-link disabled" href="#">Desativado</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input
-              class="form-control mr-sm-2"
-              type="search"
-              placeholder="Pesquisar"
-              aria-label="Pesquisar"
-            />
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-              Pesquisar
-            </button>
-          </form>
+          <image src="./images/whatsapp-svgrepo-com.svg" class="btn btn-outline-success my-2 my-sm-0" type="submit"></img>
         </div>
       </nav>
       <!--fim barra de navegação-->
     </header>
-    <div class="row justify-content-center bg-warning"><!--quem somos-->
+    <div class="row justify-content-center bg-warning">
+      <!--quem somos-->
       <div class="col-6 pt-5">
-        <h1>Lorem ipsum dolor sit amet</h1>
+        <h1>Quem somos</h1>
         <div class="mt-2">
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid esse
-            commodi sequi quisquam similique? Nemo porro autem odio aliquam,
+            A Transvila Transporte e Logística foi fundada em 2015 no Rio de Janeiro. Especializados no transporte de cargas, logística, movimentação e distribuição ponto a ponto, oferecemos serviços pautados pela transparência, sustentabilidade, eficiência e excelência na informação aos nossos clientes.
           </p>
         </div>
         <div class="d-flex flex-wrap justify-content-center mt-5">
-          <button class="mr-1 btn btn-secondary col-4">Ola1</button>
-          <button class="ml-1 btn btn-dark col-4">btn2</button>
+          <button class="mr-1 btn btn-secondary col-4">Nossas vantagens</button>
+          <button class="ml-1 btn btn-dark col-4">Entre em contato</button>
         </div>
       </div>
       <img
         src="https://source.unsplash.com/1600x900/?truck"
         alt=""
-        class="col-6 p-0 "
+        class="responsive col-6 p-0"
       />
-    </div><!--fim quem somos-->
+    </div>
+    <!--fim quem somos-->
 
     <div class="container">
       <div class="row my-5">
-
         <div class="col-3">
           <div class="card border-0">
             <div class="card-body">
-              <div class="d-flex text-center ">
-                <i class="fa-solid fa-warehouse " style="font-size: 20px;"></i>
-                <h5 class="card-title ml-1">Título do card</h5>
+              <div class="d-flex text-center">
+                <i class="fa-solid fa-warehouse" style="font-size: 20px"></i>
+                <h5 class="card-title ml-1">Galpão próprio</h5>
               </div>
-              <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
             </div>
           </div>
         </div>
@@ -128,11 +121,13 @@
         <div class="col-3">
           <div class="card border-0">
             <div class="card-body">
-              <div class="d-flex text-center ">
-                <i class="fa-solid fa-calendar-days" style="font-size: 20px;"></i>
-                <h5 class="card-title ml-1">Título do card</h5>
+              <div class="d-flex text-center">
+                <i
+                  class="fa-solid fa-calendar-days"
+                  style="font-size: 20px"
+                ></i>
+                <h5 class="card-title ml-1">10 anos no mercado</h5>
               </div>
-              <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
             </div>
           </div>
         </div>
@@ -140,11 +135,13 @@
         <div class="col-3">
           <div class="card border-0">
             <div class="card-body">
-              <div class="d-flex text-center ">
-                <i class="fa-solid fa-satellite-dish" style="font-size: 20px;"></i>
-                <h5 class="card-title ml-1">Título do card</h5>
+              <div class="d-flex text-center">
+                <i
+                  class="fa-solid fa-satellite-dish"
+                  style="font-size: 20px"
+                ></i>
+                <h5 class="card-title ml-1">Monitoramento</h5>
               </div>
-              <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
             </div>
           </div>
         </div>
@@ -152,96 +149,87 @@
         <div class="col-3">
           <div class="card border-0">
             <div class="card-body">
-              <div class="d-flex text-center ">
-                <i class="fa-solid fa-seedling" style="font-size: 20px;"></i>
-                <h5 class="card-title ml-1">Título do card</h5>
+              <div class="d-flex text-center">
+                <i class="fa-solid fa-seedling" style="font-size: 20px"></i>
+                <h5 class="card-title ml-1">Sustentabilidade</h5>
               </div>
-              <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
             </div>
           </div>
         </div>
-
       </div>
     </div>
-
-    
-    <div class="row g-4 m-auto mt-5"> <!--pt1-->
+    <div class="row g-4 m-auto mt-5">
+      <!--pt1-->
       <img
-      src="https://source.unsplash.com/1600x900/?truck"
-      alt=""
-      class="col-6 p-0 "
+        src="https://source.unsplash.com/1600x900/?truck"
+        alt=""
+        class="img-fluid col-6 p-0"
       />
-      <div class="col-6 pt-5 ">
-      <h1>Lorem ipsum dolor sit amet</h1>
-      <div class="mt-2">
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid esse
-          commodi sequi quisquam similique? Nemo porro autem odio aliquam,
-        </p>
-      </div>
-        <div class="d-flex flex-wrap justify-content-center mt-5">
-        </div>
-      </div>
-    </div><!--fim pt1-->
-
-    <div class="row justify-content-center bg-warning mt-5"><!--pt2-->
       <div class="col-6 pt-5">
-        <div class="mt-5 m-5">
-          <h1>Lorem ipsum dolor sit amet</h1>
-        </div>
-        <div class="mt-0 text-center">
+        <h2>Nossa frota</h2>
+        <div class="mt-2">
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid esse
-            commodi sequi quisquam similique? Nemo porro autem odio aliquam,
+            Temos uma frota própria que nos permite um controle total das nossas operações, assegurando a qualidade das nossas entregas. Além disso, contamos com veículos reservas para garantir a máxima segurança durante as operações dos nossos clientes. Dispomos de VUCs, Vans, Trucks e Tocos.
+          </p>
+        </div>
+        <div class="d-flex flex-wrap justify-content-center mt-5"></div>
+      </div>
+    </div>
+    <!--fim pt1-->
+
+    <div class="row justify-content-center bg-warning mt-5">
+      <!--pt2-->
+      <div class="col-6 pt-5">
+          <h2>MONITORAMENTO EM TEMPO REAL</h2>
+        <div class="mt-0 text-center">
+          <p class="p-2 text-left">
+            Utilizamos tecnologia de ponta por meio do sistema de rastreamento CIELO, garantindo que nossos clientes tenham acesso à operação e possam acompanhar seus pedidos até o momento final da entrega. Isso proporciona maior transparência e segurança, permitindo que os clientes estejam sempre informados sobre o status de suas encomendas, o que contribui para a satisfação e confiança em nossos serviços.
           </p>
         </div>
       </div>
       <img
         src="https://source.unsplash.com/1600x900/?truck"
         alt=""
-        class="col-6 p-0 "
+        class="img-fluid col-6 p-0"
       />
-    </div><!--fim pt2-->
+    </div>
+    <!--fim pt2-->
 
-    <div class="row g-4 m-auto mt-5"> <!--pt3-->
+    <div class="row g-4 m-auto mt-5">
+      <!--pt3-->
       <img
-      src="https://source.unsplash.com/1600x900/?truck"
-      alt=""
-      class="col-6 p-0 "
+        src="https://source.unsplash.com/1600x900/?truck"
+        alt=""
+        class="responsive col-6 p-0"
       />
-      <div class="col-6 pt-5 ">
-      <h1>Lorem ipsum dolor sit amet</h1>
-      <div class="mt-2">
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid esse
-          commodi sequi quisquam similique? Nemo porro autem odio aliquam,
-        </p>
-      </div>
-        <div class="d-flex flex-wrap justify-content-center mt-5">
-        </div>
-      </div>
-    </div><!--fim pt3-->
-
-    <div class="row justify-content-center bg-warning mt-5"><!--pt4-->
       <div class="col-6 pt-5">
-        <div class="mt-5 m-5">
-          <h1>Lorem ipsum dolor sit amet</h1>
-        </div>
-        <div class="mt-0 text-center">
+        <h1>Sustentabilidade</h1>
+        <div class="mt-2">
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid esse
-            commodi sequi quisquam similique? Nemo porro autem odio aliquam,
+            No telhado do nosso galpão, foram instaladas placas solares, o que torna nosso custo-benefício muito interessante. Isso nos possibilita investir mais em soluções tecnológicas e infraestrutura, permitindo manter um preço final mais competitivo para os nossos clientes.
           </p>
+        </div>
+        <div class="d-flex flex-wrap justify-content-center mt-5"></div>
+      </div>
+    </div>
+    <!--fim pt3-->
+
+    <div class="row justify-content-center bg-warning mt-5">
+      <!--pt4-->
+      <div class="col-6 pt-5">
+          <h1>Armazenagem e cross docking</h1>
+        <div class="mt-0">
+          <p>Realizamos um rigoroso controle conduzido por nossos profissionais durante a armazenagem temporária antes da distribuição para o destino final. Com um espaço de armazenagem abrangendo 400m², garantimos que todos os produtos sejam cuidadosamente monitorados e manuseados.
+            Além disso, através da nossa gerenciadora de risco BUONNY SAT, garantimos segurança na contratação de motoristas e ajudantes, prevenção contra fraudadores e soluções para a prevenção de acidentes. </p>
         </div>
       </div>
       <img
         src="https://source.unsplash.com/1600x900/?truck"
         alt=""
-        class="col-6 p-0 " 
-        
+        class="responsive col-6 p-0"
       />
-    </div><!--fim pt4-->
-    
+    </div>
+    <!--fim pt4-->
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -258,6 +246,6 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
-    
+  </div>
   </body>
 </html>
