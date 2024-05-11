@@ -1,19 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
+  <head>    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
     <link
@@ -27,7 +20,7 @@
     rel="stylesheet" href="./style/global.css"/>
     <title>Document</title>
   </head>
-  <body class="">
+  <body class="container-fluid p-0">
     <div class="container-fluid m-0 p-0">
     <header>
       <nav class="navbar navbar-expand-lg navbar-light">
@@ -48,107 +41,110 @@
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(página atual)</span></a
+              <a class="nav-link" href="#nossaFrota"
+                >Nossa Frota <span class="sr-only">(página atual)</span></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Ação</a>
-                <a class="dropdown-item" href="#">Outra ação</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Algo mais aqui</a>
-              </div>
+              <a class="nav-link" href="#monitoramento">Monitoramento</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Desativado</a>
+              <a class="nav-link" href="#sustentabilidade">Sustentabilidade</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#monitoramento">Monitoramento</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#armazem">Armazenagem</a>
             </li>
           </ul>
-          <image src="./images/whatsapp-svgrepo-com.svg" class="btn btn-outline-success my-2 my-sm-0" type="submit"></img>
+          <image src="./images/whatsapp-svgrepo-com.svg" class="btn btn-outline-success ms-auto me-2" type="submit"></img>
         </div>
       </nav>
       <!--fim barra de navegação-->
     </header>
-    <div class="row justify-content-center bg-warning">
+    <div class="row justify-content-center bg-warning line col-12">
       <!--quem somos-->
-      <div class="col-md-6 pt-5 col-xs-12">
+      <div class="col-md-5 pt-5 col-xs-12 ms-1">
         <h1>Quem somos</h1>
-        <div class="mt-2">
+        <div class=" mt-2">
           <p>
             A Transvila Transporte e Logística foi fundada em 2015 no Rio de Janeiro. Especializados no transporte de cargas, logística, movimentação e distribuição ponto a ponto, oferecemos serviços pautados pela transparência, sustentabilidade, eficiência e excelência na informação aos nossos clientes.
           </p>
         </div>
         <div class="d-flex flex-wrap justify-content-center mt-5 mb-1">
-          <button class="mr-1 btn btn-secondary col-4">Nossas vantagens</button>
-          <button class="ml-1 btn btn-dark col-4">Entre em contato</button>
+          <button class="ms-1 btn btn-dark col-4">Entre em contato</button>
+          
         </div>
       </div>
       <img
-        src="https://source.unsplash.com/1600x900/?truck"
+        src="./images/transvila-logo.jpeg"
         alt=""
-        class="d-none d-md-block d-lx-block col-md-6 p-0 col-xs-12"
+        class="quem-somos-img d-none d-md-block d-lx-block col-md-6 col-xs-12"
       />
     </div>
     <!--fim quem somos-->
 
-    <div class="row p-0 justify-content-around mt-3 mb-3 flex-wrap">
+    <div class="d-flex p-0 justify-content-around mt-3 mb-3 d-flex flex-wrap">
       <div class="d-flex">
         <i class="fa-solid fa-warehouse" style="font-size: 20px"></i>
-        <h5 class="card-title ml-1">Galpão próprio</h5>
+        <h5 class="card-title ml-1"> Galpão próprio</h5>
       </div>
       <div class="d-flex">
         <i
         class="fa-solid fa-calendar-days"
         style="font-size: 20px"
       ></i>
-      <h5 class="card-title ml-1">10 anos no mercado</h5>
+      <h5 class="card-title ml-1"> +10 anos no mercado</h5>
       </div>
       <div class="d-flex">
         <i
         class="fa-solid fa-satellite-dish"
         style="font-size: 20px"
       ></i>
-      <h5 class="card-title ml-1">Monitoramento</h5>
+      <h5 class="card-title ml-1"> Monitoramento</h5>
       </div>
       <div class="d-flex">
         <i class="fa-solid fa-seedling" style="font-size: 20px"></i>
-        <h5 class="card-title ml-1">Sustentabilidade</h5>
+        <h5 class="card-title ml-1"> Sustentabilidade</h5>
       </div>
     </div>
     <div class="row g-4 m-auto mt-5">
       <!--pt1-->
-      <img
-        src="https://source.unsplash.com/1600x900/?truck"
-        alt=""
-        class="img-fluid col-md-6 p-0 col-xs-12"
-      />
-      <div class="col-md-6 pt-5 col-xs-12">
-        <h2>Nossa frota</h2>
+      <div id="nossaFrota" class="col-md-12 pt-5 col-xs-12">
+        <h2 >Nossa frota</h2>
         <div class="mt-2">
           <p>
             Temos uma frota própria que nos permite um controle total das nossas operações, assegurando a qualidade das nossas entregas. Além disso, contamos com veículos reservas para garantir a máxima segurança durante as operações dos nossos clientes. Dispomos de VUCs, Vans, Trucks e Tocos.
           </p>
+          <div class="d-flex justify-content-evenly">
+            <img
+            class="truck rounded"
+            src="./images/truck1.jpeg"
+            alt=""
+            class=""
+          />
+          <img
+          class="truck rounded"
+          src="./images/truck3.jpg"
+          alt=""
+          class=""
+        />
+          <img
+          class="truck rounded"
+          src="./images/truck2.jpeg"
+          alt=""
+          class=""
+        />
+          </div>
+
         </div>
         <div class="d-flex flex-wrap justify-content-center mt-5"></div>
       </div>
     </div>
     <!--fim pt1-->
 
-    <div class="row justify-content-center bg-warning mt-5">
+    <div id="monitoramento" class="row justify-content-center bg-warning line mt-5">
       <!--pt2-->
       <div class="col-6 pt-5">
           <h2>MONITORAMENTO EM TEMPO REAL</h2>
@@ -159,22 +155,23 @@
         </div>
       </div>
       <img
-        src="https://source.unsplash.com/1600x900/?truck"
+        src="./images/cielo-track.jpeg"
+        class="lineImage"
         alt=""
         class="img-fluid col-6 p-0"
       />
     </div>
     <!--fim pt2-->
 
-    <div class="row g-4 m-auto mt-5">
+    <div id="sustentabilidade" class="row g-4 m-auto mt-5">
       <!--pt3-->
       <img
-        src="https://source.unsplash.com/1600x900/?truck"
+        src="./images/solar-panel.png"
         alt=""
         class="responsive col-6 p-0"
       />
       <div class="col-6 pt-5">
-        <h1>.</h1>
+        <h1>Sustentabilidade</h1>
         <div class="mt-2">
           <p>
             No telhado do nosso galpão, foram instaladas placas solares, o que torna nosso custo-benefício muito interessante. Isso nos possibilita investir mais em soluções tecnológicas e infraestrutura, permitindo manter um preço final mais competitivo para os nossos clientes.
@@ -185,7 +182,7 @@
     </div>
     <!--fim pt3-->
 
-    <div class="row justify-content-center bg-warning mt-5">
+    <div id="armazem" class="row justify-content-center bg-warning line mt-5 w-100">
       <!--pt4-->
       <div class="col-6 pt-5">
           <h1>Armazenagem e cross docking</h1>
@@ -195,28 +192,25 @@
         </div>
       </div>
       <img
-        src="https://source.unsplash.com/1600x900/?truck"
+        src="./images/warehouse.jpeg"
         alt=""
-        class="responsive col-6 p-0"
+        class="responsive img-fluid mx-auto col-6 p-0"
       />
     </div>
     <!--fim pt4-->
-
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"
-    ></script>
+    <h1>Entre em contato</h1>
+    <form class="">
+        <div class="d-flex">
+        <input type="text" class="form-control" id="inputName4" placeholder="Nome">
+        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+      </div>
+      <div class="d-flex">
+        <input type="text" class="form-control" id="inputSubject4" placeholder="Assunto">
+        <input type="text" class="form-control" id="inputPhone4" placeholder="Telefone">
+      </div>
+        <textarea class="form-control message" id="inputMessage4" placeholder="Mensagem"></textarea>
+        <button class="btn btn-warning">Enviar</button>
+    </form>
   </div>
   </body>
 </html>

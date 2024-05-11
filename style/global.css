@@ -1,3 +1,39 @@
 * {
-  /* outline: solid 1px red; */
+  outline: solid 1px red;
+}
+
+.line {
+  box-sizing: content-box;
+  width: 100%;
+  /* margin-left: 1px; */
+}
+.truck {
+  border: 4px solid #ffc107;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+input {
+  margin: 10px 10px;
+}
+.quem-somos-img,
+.truck {
+  object-fit: fill;
+  height: 450px;
+}
+.lineImage {
+  object-fit: fill;
+  height: 300px;
+  width: 630px;
+  border-radius: 10px;
+}
+.message {
+  width: 35%;
 }
